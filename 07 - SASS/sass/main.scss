@@ -1,0 +1,30 @@
+$bgColor: red;
+$w150: 150px;
+$h100: 100px;
+
+.container{
+    display: flex;
+    div{
+        &.box1{
+            background-color: $bgColor;
+            width: $w150;
+            height: $h100;
+        }
+    }
+}
+
+@mixin deneme($bg, $w, $h){
+    background-color: $bg;
+    width: $w;
+    height: $h;
+    margin: 10px;
+}
+
+.box2{
+    @include deneme(blue,$w150 ,$h100)
+}
+
+.box3{
+    @extend .box2;
+    width: $w150*2;
+}

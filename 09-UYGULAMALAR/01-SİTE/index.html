@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+
+    <header id="header">
+      <section id="section-header" class="text-white d-none d-md-block py-3 bg-primary">
+        <div class="container">
+          <div class="row">
+            <div class="col-md pt-2">
+              <h6><i class="bi bi-phone"></i>+123 456 789</h6>
+            </div>
+            <div class="col-md pt-2">
+              <h6><i class="bi bi-envelope"></i>user@yourdomain.com</h6>
+            </div>
+            <div class="col-md text-end">
+              <a href="https://www.facebook.com" target="_blank" class="btn btn-primary text-white" style="background-color: #0865fd;"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com" target="_blank" class="btn btn-primary text-white" style="background-color: #fe0083;"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.x.com" target="_blank" class="btn btn-primary text-white" style="background-color: rgb(0, 0, 0);"><i class="bi bi-x"></i></a>
+              <a href="https://www.twitch.com" target="_blank" class="btn btn-primary text-white" style="background-color: #a66efa;"><i class="bi bi-twitch"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section-header-2" class="bg-secondary text-white">
+        <nav class="navbar navbar-expand-md bg-secondary py-3 navbar-dark sticky-top">
+          <div class="container">
+            <a href="" class="navbar-brand">Learn Code</a>
+            <button class="btn btn-primary navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
+            <div id="navmenu" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav ms-auto">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#service" class="nav-link">Service</a></li>
+                <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+                <li class="nav-item"><a href="#FAQ" class="nav-link">FAQ</a></li>
+                <li class="nav-item"><a href="#analysis" class="nav-link">Analysis</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
+
+    <section id="about" class="py-5">
+      <div class="container ">
+        <div class="row align-items-center">
+          <div class="col-md">
+            <div class="d-flex align-items-center flex-wrap">
+              <h2 class="text-md-center">Let's Learn Coding</h2>
+              <small class="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem explicabo aperiam eaque voluptates nisi saepe repudiandae veritatis omnis? Quisquam, porro?</small>
+              <a href="" role="button" class="btn btn-primary" data-bs-target="#joinusmodal" data-bs-toggle="modal">Join Now</a>
+              <div class="modal fade" id="joinusmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Join now</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="mb-5">Fill out this form</p>
+                      <form action="">
+                        <div class="mb-4">
+                          <label for="name" class="form-label">Name</label>
+                          <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name">
+                        </div>
+
+                        <div class="mb-4">
+                          <label for="name" class="form-label">Email</label>
+                          <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" class="mb-2">
+                        </div>
+
+                        <div class="mb-4">
+                          <label for="name" class="form-label">Phone</label>
+                          <input type="text" name="name" id="name" class="form-control" placeholder="Enter your phone" class="mb-2">
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      <button type="submit" class="btn btn-success">Submit</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md ">
+            <img src="./img/about.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-3 bg-light" id="service">
+      <div class="container">
+        <div class="d-flex flex-column text-center">
+          <h2>Our Service</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, perspiciatis?</p>
+        </div>
+        <div class="mt-4 row">
+
+          <div class="col-md text-center mb-3">
+            <div class="card">
+              <div class="card-body">
+                <i class="bi bi-gear btn-outline-primary m-auto d-block pt-2 my-3"></i>
+                <h4 class="mb-3">Easy to use</h4>
+                <p class="flex-wrap">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur praesentium similique, blanditiis quam doloremque fugit soluta odit rem. Cumque, aut?</p>
+                <button class="btn btn-primary">Learn more</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md text-center mb-3">
+            <div class="card">
+              <div class="card-body">
+                <i class="bi bi-graph-up-arrow btn-outline-primary m-auto d-block pt-2 my-3"></i>
+                <h4 class="mb-3">Awesome Design</h4>
+                <p class="flex-wrap">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur praesentium similique, blanditiis quam doloremque fugit soluta odit rem. Cumque, aut?</p>
+                <button class="btn btn-primary">Learn more</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md text-center mb-3">
+            <div class="card">
+              <div class="card-body">
+                <i class="bi bi-people btn-outline-primary m-auto d-block pt-2 my-3"></i>
+                <h4 class="mb-3">Easy to Customize</h4>
+                <p class="flex-wrap">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur praesentium similique, blanditiis quam doloremque fugit soluta odit rem. Cumque, aut?</p>
+                <button class="btn btn-primary">Learn more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="analysis" class="py-3" >
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-md-6 pt-5">
+            <img src="https://wanderlustdizayn.com/images/undraw_investing_7u74.svg" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-6 align-self-center">
+            <h3 class="mb-3">Analysis for Business Opportunities</h3>
+            <p class="flex-wrap mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus harum, nostrum fugiat nemo laudantium veniam esse. Delectus quisquam, sapiente magni laboriosam alias expedita mollitia rerum vel unde eaque dignissimos. Ipsam.</p>
+            <a href="" type="button" role="button" class="btn btn-primary">See more İnformation</a>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <section id="team" class="py-5 bg-light">
+      <div class="container">
+        <div class="row flex-column text-center">
+          <h2>Our Team</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, numquam!</p>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <img src="./img/rg1.jpg" alt="" class="card-img-top mb-3 img-fluid style="width: 500px; height: 250px;"" style=>
+                <h3 class="text-center">David Clark</h3>
+                <p class="text-center">Web Designer</p>
+                <div class="d-flex justify-content-center gap-3">
+                  <a href="https://www.facebook.com" target="_blank" class="btn btn-primary"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.facebook.com" target="_blank" class="btn btn-primary"><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.facebook.com" target="_blank" class="btn btn-primary"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <img src="./img/rg2.jpg" alt="" class="card-img-top mb-3 img-fluid" style="width: 500px; height: 250px;">
+                <h3 class="text-center">David Clark</h3>
+                <p class="text-center">Graphics Designer</p>
+                <div class="d-flex justify-content-center gap-3">
+                  <a href="https://www.facebook.com" target="_blank" class="btn btn-primary"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.facebook.com" target="_blank" class="btn btn-primary"><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.facebook.com" target="_blank" class="btn btn-primary"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <img src="./img/rg3.jpg" alt="" class="card-img-top mb-3 img-fluid" style="width: 500px; height: 250px;">
+                <h3 class="text-center">David Clark</h3>
+                <p class="text-center">Web Developer</p>
+                <div class="d-flex justify-content-center gap-3">
+                  <a href="https://www.facebook.com" target="_blank" class="btn btn-primary"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.facebook.com" target="_blank" class="btn btn-primary"><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.facebook.com" target="_blank" class="btn btn-primary"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="FAQ" class="pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img src="./img/faq.svg" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-7 align-self-center">
+            <h2 class="mb-3">FAQ AREA</h2>
+            <div class="accordion" id="FAQaccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#FAQone" aria-expanded="true" aria-controls="FAQcollapse1">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="FAQone" class="accordion-collapse collapse show" data-bs-parent="#FAQaccordion">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQtwo" aria-expanded="false" aria-controls="FAQcollapse2">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="FAQtwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQthree" aria-expanded="false" aria-controls="FAQcollapse3">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="FAQthree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-light" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h3>Contact Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, quod.</p>
+            <form action="" class="text-start py-3">
+              <div class="row">
+                <div class="col-md-7">
+                  <input type="text" name="" id="" placeholder="Enter your name" class="form-control mb-3">
+                </div>
+                <div class="col-md-5">
+                  <input type="email" name="" id="" placeholder="Enter your email" class="form-control">
+                </div>
+              </div>
+              <div class="mb-3">
+                <input type="text" name="" id="" class="form-control col-md-12 my-4" placeholder="Subject">
+              </div>
+              <div class="mb-3">
+                <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+              </div>
+              <button class="btn btn-primary" type="button">Send Message</button>
+            </form>
+          </div>
+            
+          <div class="col-md-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6272.606486125235!2d33.170258092605415!3d38.179629647584065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d6d68eb6fdf9b7%3A0xd14fdfc5cf81d3fe!2sObruk%20Buca%C4%9F%C4%B1%2C%20Obruk%2C%2042290%20Karatay%2FKonya!5e0!3m2!1str!2str!4v1726359092879!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        
+      </div>
+    </section>
+
+   <footer class="pt-4 bg-secondary text-white text-center ">
+    <div class="container">
+      <div class="row">
+        <div>
+          <p>Copyright &copy; 2024 All Right Reserved</p>
+        </div>
+      </div>
+    </div>
+   </footer>
+      
+      
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
